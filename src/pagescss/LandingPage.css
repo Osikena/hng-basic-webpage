@@ -7,8 +7,14 @@
     /* padding-top: 4vw; */
     border: 5px solid red;
 }
+
+
+
+
+
 #profile__img{
-    border-radius: 100px;
+    margin-top: 8vh;
+    border-radius: 275px;
 }
 #twitter{
     font-family: 'Inter';
@@ -16,6 +22,8 @@
     font-weight: 700;
     font-size: 20px;
     color: #101828;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
 }
 #slack{
     font-family: 'Inter';
@@ -23,6 +31,7 @@
     font-weight: 700;
     font-size: 20px;
     color: #101828;
+    visibility: hidden;
 }
 
 
@@ -32,21 +41,9 @@
     margin: 0px;
     padding: 0px;
     width: 100%;
-    margin-top: 3.22vh;
-    border: 5px solid blue;
-}
-#LinkComp-container{
-    background: #EAECF0;
-    border: 1px solid #EAECF0;
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 10vh;
-    padding: 0px;
-    margin: 0px;
-    margin-bottom: 3.22vh;
-    border: 5px solid red;
+    margin-top: 3vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
 }
 .linkbtn{
     text-decoration: none;
@@ -98,11 +95,9 @@
     margin: 0px;
     padding: 0px;
     min-height: 10vh;
-    /* border: 5px solid green; */
     border-top: 1px solid #EAECF0;
     margin-top: 15vh;
     margin-bottom: 6vh;
-
 }
 #Footer-row-col-1{
     margin: 0px;
@@ -110,6 +105,8 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    margin-top: 2vh;
+    /* border: 2px solid red; */
 }
 #Footer-row-col-2{
     margin: 0px;
@@ -118,6 +115,8 @@
     align-items: center;
     justify-content: center;
     padding-top: 1vh;
+    margin-top: 2vh;
+    /* border: 2px solid blue; */
 }
 #Footer-row-col-3{
     margin: 0px;
@@ -125,6 +124,8 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    margin-top: 2vh;
+    /* border: 2px solid green; */
 }
 #Footer-col-text{
     font-family: 'Inter';

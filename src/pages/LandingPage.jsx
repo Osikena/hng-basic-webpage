@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import '../pagescss/LandingPage.css'
+import '../pagesresponsivecss/LandingPageResponsive.css'
 import LinkComp from '../components/LinkComp'
 import Footer from '../components/Footer'
 import BelowLink from '../components/BelowLink'
