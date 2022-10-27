@@ -1,0 +1,135 @@
+#LandingPage-main-container{
+    margin: 0px;
+    padding: 0px;
+    min-height: 100vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    /* padding-top: 4vw; */
+    border: 5px solid red;
+}
+#profile__img{
+    border-radius: 100px;
+}
+#twitter{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #101828;
+}
+#slack{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #101828;
+}
+
+
+
+
+#LandingPage-link-container{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    margin-top: 3.22vh;
+    border: 5px solid blue;
+}
+#LinkComp-container{
+    background: #EAECF0;
+    border: 1px solid #EAECF0;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 3.22vh;
+    border: 5px solid red;
+}
+.linkbtn{
+    text-decoration: none;
+    color: #101828;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #EAECF0;
+    border: 1px solid #EAECF0;
+    border-radius: 8px;
+    margin-bottom: 3.22vh;
+}
+.linkbtn:hover{
+    background: #D0D5DD;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    color: #101828;
+}
+
+
+
+
+
+#BelowLink-container{
+    margin: 0px;
+    padding: 0px;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Slack{
+    margin-right: 2%;
+}
+
+
+
+
+
+
+#Footer-row{
+    margin: 0px;
+    padding: 0px;
+    min-height: 10vh;
+    /* border: 5px solid green; */
+    border-top: 1px solid #EAECF0;
+    margin-top: 15vh;
+    margin-bottom: 6vh;
+
+}
+#Footer-row-col-1{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+#Footer-row-col-2{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1vh;
+}
+#Footer-row-col-3{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+#Footer-col-text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #667085;
+}
