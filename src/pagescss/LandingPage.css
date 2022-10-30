@@ -4,14 +4,19 @@
     min-height: 100vh;
     padding-left: 10vw;
     padding-right: 10vw;
-    /* padding-top: 4vw; */
     border: 5px solid red;
 }
 
 
 
 
-
+#TopArrangment-top-btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 12vw;
+    border: 2px solid green;
+}
 #profile__img{
     margin-top: 8vh;
     border-radius: 275px;
@@ -83,7 +88,7 @@
     justify-content: center;
 }
 #Slack{
-    margin-right: 2%;
+    margin-right: 2vw;
 }
 
 

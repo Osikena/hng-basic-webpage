@@ -1,6 +1,28 @@
 @media (max-width: 576px) {
 
 
+
+    #cont{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    #bottom-navbar-toggle{
+        border: none;
+        border-radius: 1500px;
+        height: 50px;
+        width: 50px;
+    }
+    #toggleimg{
+        width: 100%;
+        height: 100%;
+    }
+    #TopArrangment-top-btn-container{
+        padding-right: 0vw;
+    }
+    /* #profile__img{
+        margin-top: 1vh;
+    } */
     #twitter{
         font-size: 18px;
     }
@@ -20,6 +42,12 @@
 
 
 
+    #Slack{
+        margin-right: 2vw;
+    }
+
+
+
 
     #Footer-row{
         margin-top: 8vh;
@@ -29,18 +57,21 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: 2vh;
+        margin-top: 1vh;
+        border: 2px solid blue;
     }
     #Footer-row-col-2{
         display: flex;
         align-items: center;
         justify-content: center;
         padding-top: 1vh;
+        border: 2px solid blue;
     }
     #Footer-row-col-3{
         display: flex;
         align-items: center;
         justify-content: center;
+        border: 2px solid blue;
     }
 
 
@@ -55,6 +86,11 @@
 
 @media (max-width: 768px) {
     
+
+
+    #Slack{
+        margin-right: 2vw;
+    }
 
 
 
@@ -95,6 +131,10 @@
 @media (max-width: 992px) {
     
 
+
+    #Slack{
+        margin-right: 2vw;
+    }
 
     
     #Footer-row{
