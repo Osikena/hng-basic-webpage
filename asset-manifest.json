@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/hng-basic-webpage/static/css/main.dab358e2.css",
+    "main.js": "/hng-basic-webpage/static/js/main.15ce6cd2.js",
+    "static/js/787.f126c112.chunk.js": "/hng-basic-webpage/static/js/787.f126c112.chunk.js",
+    "static/media/Ingressive For Good Logo.svg": "/hng-basic-webpage/static/media/Ingressive For Good Logo.601ff0479d970c740e8b7d7ba7821548.svg",
+    "static/media/Profile Pic Hover.svg": "/hng-basic-webpage/static/media/Profile Pic Hover.859ee6c06a59d0cd5268053f028a09ce.svg",
+    "static/media/Profile Pic.svg": "/hng-basic-webpage/static/media/Profile Pic.0bf2cf9f59f9d289d55b9e6352476d64.svg",
+    "static/media/Zuri Logo.svg": "/hng-basic-webpage/static/media/Zuri Logo.0f8c3aa843c87d1f28aa0826858bd0ef.svg",
+    "static/media/Slack Logo.svg": "/hng-basic-webpage/static/media/Slack Logo.6fa75d08a444264c64393c623e71c055.svg",
+    "static/media/GitHub Logo.svg": "/hng-basic-webpage/static/media/GitHub Logo.05ffca422514a5bbf3ac752e4d893c57.svg",
+    "static/media/Share Small.svg": "/hng-basic-webpage/static/media/Share Small.ef0667842321f70b92ece6b332a6dc6f.svg",
+    "static/media/Share.svg": "/hng-basic-webpage/static/media/Share.8b4369de8ab30a8ae240d027dafeccf0.svg",
+    "index.html": "/hng-basic-webpage/index.html",
+    "main.dab358e2.css.map": "/hng-basic-webpage/static/css/main.dab358e2.css.map",
+    "main.15ce6cd2.js.map": "/hng-basic-webpage/static/js/main.15ce6cd2.js.map",
+    "787.f126c112.chunk.js.map": "/hng-basic-webpage/static/js/787.f126c112.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dab358e2.css",
+    "static/js/main.15ce6cd2.js"
+  ]
+}
