@@ -24,7 +24,7 @@ function TopArrangment() {
             <Container id='cont'>
 
                 <Navbar.Toggle data-bs-target='#bottom-navbar-navbarScroll' id='bottom-navbar-toggle'> 
-                    <img src={BackImageSmall} alt="BackImageSmall" id='toggleimg' />
+                    <img src={BackImageSmall} alt="BackImageSmall" id='toggleimg' height={40} width={40} />
                 </Navbar.Toggle>
 
                 <Navbar.Collapse id='bottom-navbar-navbarScroll'>
@@ -44,7 +44,7 @@ function TopArrangment() {
         <img src={hover? ProfileImgHover : ProfileImg} alt="ProfileImg" id='profile__img' height={88} width={88} 
             onMouseOver={() => setHover(true)} onMouseOut={() => setHover(false)} />
 
-        <h5 id='twitter'>abdulosikena</h5>
+        <h5 id='twitter'>@abdulosikena</h5>
         <h6 id='slack'>Osikena</h6>
 
     </div>

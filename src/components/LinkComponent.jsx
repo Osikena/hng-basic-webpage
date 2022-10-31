@@ -6,7 +6,7 @@ function LinkComponent() {
   return (
     <div className="container-fluid" id='LandingPage-link-container'>
 
-        <LinkCompExtra link="https://training.zuri.team/" linkid="btn__zuri" linktext="Zuri" />
+        <LinkCompExtra link="https://training.zuri.team/" linkid="btn__zuri" linktext="Zuri Team" />
 
         <LinkComp link="http://books.zuri.team" linkid="books" linktext="Software Development Books for Newbies" 
         linksubtext="Get the best cooding and design books to begin your journey" />

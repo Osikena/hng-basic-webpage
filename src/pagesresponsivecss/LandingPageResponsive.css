@@ -12,14 +12,10 @@
         border-radius: 1500px;
         outline: none;
         box-shadow: none;
-        height: 40px;
-        width: 40px;
-        border: 1px dashed #D0D5DD;
+        height: 80px;
+        width: 80px;
+        border: 5px dashed #D0D5DD;
         border-radius: 20px;
-    }
-    #toggleimg{
-        width: 100%;
-        height: 100%;
     }
     #TopArrangment-top-btn-container{
         padding-right: 0vw;
@@ -39,16 +35,15 @@
     #LandingPage-link-container{
         margin-top: 0vh;
     }
-    #LinkComp-container{
-        height: 9vh;
-    }
     .linkbtn{
         font-size: 14px;
-        height: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        height: 12vh;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
     }
     #linktextmain{
         font-size: 14px;
@@ -141,16 +136,15 @@
     #LandingPage-link-container{
         margin-top: 0vh;
     }
-    #LinkComp-container{
-        height: 9vh;
-    }
     .linkbtn{
         font-size: 14px;
-        height: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        height: 12vh;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
     }
 
 
@@ -243,16 +237,15 @@
     #LandingPage-link-container{
         margin-top: 0vh;
     }
-    #LinkComp-container{
-        height: 9vh;
-    }
     .linkbtn{
         font-size: 14px;
-        height: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        height: 12vh;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
     }
 
 

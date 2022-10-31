@@ -33,6 +33,9 @@
 }
 #backimg{
     cursor: pointer;
+    border: 2px dashed #D0D5DD;
+    border-radius: 20px;
+    padding: 5px;
 }
 #profile__img{
     border-radius: 275px;
@@ -67,17 +70,6 @@
     padding-left: 2vw;
     padding-right: 2vw;
 }
-#LinkComp-container{
-    height: 10vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #EAECF0;
-    border: 1px solid #EAECF0;
-    border-radius: 8px;
-    margin-bottom: 3.22vh;
-}
 .linkbtn{
     text-decoration: none;
     color: #101828;
@@ -85,14 +77,25 @@
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
-    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    width: 100%;
+    height: 16vh;
+    background: #EAECF0;
+    border: 1px solid #EAECF0;
+    border-radius: 8px;
+    margin-bottom: 3vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
 }
 .linkbtn:hover{
     color: #101828;
+    background: #D0D5DD;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
 }
 #linktextmain{
     font-family: 'Inter';
@@ -105,13 +108,6 @@
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
-}
-#LinkComp-container:hover{
-    background: #D0D5DD;
-    border: 1px solid #D0D5DD;
-    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
-    border-radius: 8px;
-    color: #101828;
 }
 
 
