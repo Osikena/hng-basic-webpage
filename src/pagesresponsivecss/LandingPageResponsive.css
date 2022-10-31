@@ -1,17 +1,21 @@
 @media (max-width: 576px) {
 
-
-
-    #cont{
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
+    #LandingPage-main-container{
+        padding-left: 2vw;
+        padding-right: 2vw;
     }
+
+
+    
     #bottom-navbar-toggle{
         border: none;
         border-radius: 1500px;
-        height: 50px;
-        width: 50px;
+        outline: none;
+        box-shadow: none;
+        height: 40px;
+        width: 40px;
+        border: 1px dashed #D0D5DD;
+        border-radius: 20px;
     }
     #toggleimg{
         width: 100%;
@@ -20,9 +24,9 @@
     #TopArrangment-top-btn-container{
         padding-right: 0vw;
     }
-    /* #profile__img{
-        margin-top: 1vh;
-    } */
+    #profile__img{
+        margin-top: 0vh;
+    }
     #twitter{
         font-size: 18px;
     }
@@ -35,15 +39,28 @@
     #LandingPage-link-container{
         margin-top: 0vh;
     }
+    #LinkComp-container{
+        height: 9vh;
+    }
     .linkbtn{
         font-size: 14px;
-        height: 8vh;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #linktextmain{
+        font-size: 14px;
+    }
+    #linktextsub{
+        font-size: 10px;
     }
 
 
 
-    #Slack{
-        margin-right: 2vw;
+    #BelowLink-slack-div{
+        margin-right: 5vw;
     }
 
 
@@ -56,22 +73,19 @@
     #Footer-row-col-1{
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
         margin-top: 1vh;
-        border: 2px solid blue;
     }
     #Footer-row-col-2{
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
         padding-top: 1vh;
-        border: 2px solid blue;
     }
     #Footer-row-col-3{
         display: flex;
         align-items: center;
-        justify-content: center;
-        border: 2px solid blue;
+        justify-content: flex-start;
     }
 
 
@@ -87,9 +101,67 @@
 @media (max-width: 768px) {
     
 
+    #LandingPage-main-container{
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
 
-    #Slack{
-        margin-right: 2vw;
+
+
+
+    #bottom-navbar-toggle{
+        border: none;
+        border-radius: 1500px;
+        outline: none;
+        box-shadow: none;
+        height: 40px;
+        width: 40px;
+        border: 1px dashed #D0D5DD;
+        border-radius: 20px;
+    }
+    #toggleimg{
+        width: 100%;
+        height: 100%;
+    }
+    #TopArrangment-top-btn-container{
+        padding-right: 0vw;
+    }
+    #profile__img{
+        margin-top: 0vh;
+    }
+    #twitter{
+        font-size: 18px;
+    }
+    #slack{
+        font-size: 18px;
+    }
+
+
+
+    #LandingPage-link-container{
+        margin-top: 0vh;
+    }
+    #LinkComp-container{
+        height: 9vh;
+    }
+    .linkbtn{
+        font-size: 14px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+
+
+    
+
+
+
+
+    #BelowLink-slack-div{
+        margin-right: 5vw;
     }
 
 
@@ -101,19 +173,19 @@
     #Footer-row-col-1{
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
         margin-top: 2vh;
     }
     #Footer-row-col-2{
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
         padding-top: 1vh;
     }
     #Footer-row-col-3{
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
     }
 
 
@@ -131,9 +203,68 @@
 @media (max-width: 992px) {
     
 
+    #LandingPage-main-container{
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
 
-    #Slack{
-        margin-right: 2vw;
+
+
+
+    #bottom-navbar-toggle{
+        border: none;
+        border-radius: 1500px;
+        outline: none;
+        box-shadow: none;
+        height: 40px;
+        width: 40px;
+        border: 1px dashed #D0D5DD;
+        border-radius: 20px;
+    }
+    #toggleimg{
+        width: 100%;
+        height: 100%;
+    }
+    #TopArrangment-top-btn-container{
+        padding-right: 0vw;
+    }
+    #profile__img{
+        margin-top: 0vh;
+    }
+    #twitter{
+        font-size: 18px;
+    }
+    #slack{
+        font-size: 18px;
+    }
+
+
+
+    #LandingPage-link-container{
+        margin-top: 0vh;
+    }
+    #LinkComp-container{
+        height: 9vh;
+    }
+    .linkbtn{
+        font-size: 14px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+
+
+
+    
+
+
+
+
+    #BelowLink-slack-div{
+        margin-right: 5vw;
     }
 
     
@@ -144,19 +275,19 @@
     #Footer-row-col-1{
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
         margin-top: 2vh;
     }
     #Footer-row-col-2{
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
         padding-top: 1vh;
     }
     #Footer-row-col-3{
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
     }
 
 

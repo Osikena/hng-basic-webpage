@@ -4,22 +4,39 @@
     min-height: 100vh;
     padding-left: 10vw;
     padding-right: 10vw;
-    border: 5px solid red;
 }
 
 
 
 
+#bottom-navbar{
+    margin-top: 5vh;
+}
+#cont{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
 #TopArrangment-top-btn-container{
     display: flex;
     align-items: center;
     justify-content: flex-end;
     padding-right: 12vw;
-    border: 2px solid green;
+    width: 100%;
+}
+#image-tooltip{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    border-radius: 8px;
+}
+#backimg{
+    cursor: pointer;
 }
 #profile__img{
-    margin-top: 8vh;
     border-radius: 275px;
+    cursor: pointer;
 }
 #twitter{
     font-family: 'Inter';
@@ -50,13 +67,7 @@
     padding-left: 2vw;
     padding-right: 2vw;
 }
-.linkbtn{
-    text-decoration: none;
-    color: #101828;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
+#LinkComp-container{
     height: 10vh;
     width: 100%;
     display: flex;
@@ -67,7 +78,35 @@
     border-radius: 8px;
     margin-bottom: 3.22vh;
 }
+.linkbtn{
+    text-decoration: none;
+    color: #101828;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 .linkbtn:hover{
+    color: #101828;
+}
+#linktextmain{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+}
+#linktextsub{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+}
+#LinkComp-container:hover{
     background: #D0D5DD;
     border: 1px solid #D0D5DD;
     box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
@@ -87,7 +126,7 @@
     align-items: center;
     justify-content: center;
 }
-#Slack{
+#BelowLink-slack-div{
     margin-right: 2vw;
 }
 
