@@ -6,9 +6,11 @@
     padding-right: 18vw;
     margin-bottom: 12vh;
 }
-input:focus, textarea:focus, select:focus{
-    outline-style: solid;
-    outline-color: #F89687;
+.first_name_ok:focus, .last_name_ok:focus, .email_ok:focus, .message_ok:focus, .check_box_ok:focus{
+    outline: 3px solid #84CAFF;
+}
+.first_name_error, .last_name_error, .email_error, .message_error, .check_box_error{
+    outline: 3px solid #F89687;
 }
 #wrong_input{
     font-family: 'Inter';
@@ -199,6 +201,8 @@ input:focus, textarea:focus, select:focus{
     background: #FFFFFF;
     border: 1px solid #D0D5DD;
     border-radius: 6px;
+    height: 20px;
+    width: 20px;
 }
 #check_box_label{
     font-family: 'Inter';

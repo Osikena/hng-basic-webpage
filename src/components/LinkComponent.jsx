@@ -21,7 +21,7 @@ function LinkComponent() {
         <LinkComp link="https://books.zuri.team/design-rules" linkid="book__design" linktext="Zuri Free Design Book" 
         linksubtext="Begin your journey with us taking the first step for you" />
 
-        <LinkCompRoute link="https://www.google.com" linkid="contact" linktext="Contact Me" />
+        <LinkCompRoute link="/contact" linkid="contact" linktext="Contact Me" />
 
     </div>
   )
