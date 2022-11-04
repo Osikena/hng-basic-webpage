@@ -1,11 +1,12 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import LinkComp from './LinkComp'
 import LinkCompExtra from './LinkCompExtra'
+import LinkCompRoute from './LinkCompExtra'
 
 function LinkComponent() {
   return (
     <div className="container-fluid" id='LandingPage-link-container'>
-
+      
         <LinkCompExtra link="https://training.zuri.team/" linkid="btn__zuri" linktext="Zuri Team" />
 
         <LinkComp link="http://books.zuri.team" linkid="books" linktext="Software Development Books for Newbies" 
@@ -19,6 +20,8 @@ function LinkComponent() {
 
         <LinkComp link="https://books.zuri.team/design-rules" linkid="book__design" linktext="Zuri Free Design Book" 
         linksubtext="Begin your journey with us taking the first step for you" />
+
+        <LinkCompRoute link="https://www.google.com" linkid="contact" linktext="Contact Me" />
 
     </div>
   )
