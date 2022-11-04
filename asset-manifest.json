@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/hng-basic-webpage/static/css/main.9bb04f3e.css",
-    "main.js": "/hng-basic-webpage/static/js/main.59b2e841.js",
+    "main.js": "/hng-basic-webpage/static/js/main.8d03f941.js",
     "static/js/787.f126c112.chunk.js": "/hng-basic-webpage/static/js/787.f126c112.chunk.js",
     "static/media/Coprate Photo.jpg": "/hng-basic-webpage/static/media/Coprate Photo.0de598bedd436967e2ef.jpg",
     "static/media/Ingressive For Good Logo.svg": "/hng-basic-webpage/static/media/Ingressive For Good Logo.601ff0479d970c740e8b7d7ba7821548.svg",
@@ -13,11 +13,11 @@
     "static/media/Share.svg": "/hng-basic-webpage/static/media/Share.da63d78e6865cc0ff10649dfcd6f2230.svg",
     "index.html": "/hng-basic-webpage/index.html",
     "main.9bb04f3e.css.map": "/hng-basic-webpage/static/css/main.9bb04f3e.css.map",
-    "main.59b2e841.js.map": "/hng-basic-webpage/static/js/main.59b2e841.js.map",
+    "main.8d03f941.js.map": "/hng-basic-webpage/static/js/main.8d03f941.js.map",
     "787.f126c112.chunk.js.map": "/hng-basic-webpage/static/js/787.f126c112.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9bb04f3e.css",
-    "static/js/main.59b2e841.js"
+    "static/js/main.8d03f941.js"
   ]
 }
