@@ -10,9 +10,9 @@ function SwitchPage() {
     
         <Routes>
 
-        <Route path='/' element={<HomePage />} />
+        <Route exact path='/' element={<HomePage />} />
 
-          <Route path='hng-basic-webpage' element={<HomePage />} />
+          <Route path='/hng-basic-webpage' element={<HomePage />} />
           
           <Route path='/contact' element={<ContactPage />} />
 
