@@ -4,6 +4,17 @@
     min-height: 100vh;
     padding-left: 10vw;
     padding-right: 10vw;
+    border: 1px solid blue;
+}
+#SwitchPage-container{
+    margin: 0px;
+    padding: 0px;
+    border: 5px solid red;
+    text-align: center;
+}
+#HomePage-container{
+    margin: 0px;
+    padding: 0px;
 }
 
 
